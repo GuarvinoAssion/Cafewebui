@@ -1,0 +1,80 @@
+*{padding: 0;
+ margin: 0;}
+.bgimg{background-image: url(./TheShancafeimg/photo_2025-04-29_13-15-25.jpg);
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;}
+.menu,.wwu.aboutus:hover{text-decoration: underline;}
+.title{font-size: 150px;}
+figure{background-color: #335c33;}
+.para{font-size: 25px;}
+.accordion-item{background-color: #335c33;}
+.accdcolor{background-color: #335c33;}
+.coffee,.beef,.cake{margin-left: 10px;
+     margin-right: 10px;
+border-radius: 20px; border: 2px solid white;
+ box-shadow: 5px 5px 5px 5px;}
+.lastpic{width: 50%;
+     height: 600px;
+    margin-left: 50px;
+padding: 10px;}    
+.lastfig{padding: 0;
+margin: 0;}
+.lastpara{font-size: 20px;}
+footer{height: 100%; width: 100%;
+background-color: black;
+margin: 0;
+padding: 0;}
+.location{margin-left: 10px;}
+.location,.phno,.email{margin: 50px;}
+.textbox22{ display: flex; flex-direction: row;}
+.coffee2,.beef2,.cake2{display: none;}
+.thatonepic{display: none;}
+.imgneww{width: 300px; height: 400px;}
+
+@media(max-width: 500px)
+{
+     .textbox{width: 400px;}
+     .thatonepic{display: block;
+     border: 5px solid white;
+border-radius: 5px;}
+     .thattwopic{display: block; display: flex;}
+     .coffee,.beef,.cake{display: none;}
+     .coffee2,.beef2,.cake2{display: block;
+          box-shadow: 5px 5px 5px 5px;
+          width: 300px;
+          margin-bottom: 5px;
+          border: 3px solid rgb(156, 79, 79); border-radius: 10px;}
+     h1.title{font-size: 50px;
+     margin-top: -80px;}
+     .Rbtn{margin-top: 270px;}
+.Secondtitle{ margin-top: -55px;}
+     .bgimg{ background-size: cover;
+     background-position-x: -680px;}
+     .para{font-size: 15px;}
+     .sliderr{flex-direction: column;
+           text-align: center; 
+           justify-content: center;}
+     .accordion-body{flex-direction: column; font-size: 15px;text-align: center;}
+     .cake,.coffee,.beef{width: 50%; margin-bottom: 10px;}
+     .lastfig{flex-direction: column; text-align: center; font-size: px;}
+     .lastpic{width: 400px; margin-left: 0;}
+     .lastpara{margin: 5px; font-size: 15px;}
+     .footer{height: 700px;
+     font-size: 13px;
+     flex-direction: column;}
+     .textbox22{margin-top: -300px;
+          flex-direction: column;
+     margin-left: -25px;}
+     br{display: none;}
+     .carousel{display: none;}
+}
+@media (max-width:400px) 
+{
+ .textbox{width: 300px; margin-left: 30px;}
+ h1.title{font-size: 20px;}  
+ .lastpic{width: 300px; height: auto;}  
+ .footer{ height: 500px;}
+ .textbox22{margin-top: -100px; flex-direction: column;}
+ .Rbtn{margin-top: 10px;}
+}
